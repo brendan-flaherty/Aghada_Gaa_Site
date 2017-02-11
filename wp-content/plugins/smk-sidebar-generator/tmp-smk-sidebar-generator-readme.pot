@@ -1,0 +1,183 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "SMK Sidebar Generator"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish."
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin panel"
+msgstr ""
+
+#. Found in description header.
+msgid "Version 3.0 is here!"
+msgstr ""
+
+#. Found in description header.
+msgid "Features:"
+msgstr ""
+
+#. Found in description header.
+msgid "How to install this plugin?"
+msgstr ""
+
+#. Found in description header.
+msgid "Backward compatibility."
+msgstr ""
+
+#. Found in description list item.
+msgid "Author : Smartik - http://smartik.ws/"
+msgstr ""
+
+#. Found in description list item.
+msgid "License : GPLv2"
+msgstr ""
+
+#. Found in description list item.
+msgid "Development branch: https://github.com/Smartik89/Wordpress-Sidebar-Generator"
+msgstr ""
+
+#. Found in description list item.
+msgid "Issue tracker: https://github.com/Smartik89/Wordpress-Sidebar-Generator/issues"
+msgstr ""
+
+#. Found in description list item.
+msgid "Unlimited number of sidebars."
+msgstr ""
+
+#. Found in description list item.
+msgid "Replace default theme sidebars using the conditions or globaly just by selecting the sidebar that you want to replace."
+msgstr ""
+
+#. Found in description list item.
+msgid "Show the generated sidebars on any page you wish without touching a single line of code in your theme."
+msgstr ""
+
+#. Found in description list item.
+msgid "Drag to sort sidebar position."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The new version 3.x has many advantages compared with the old 2.x. First and the most important is that it remove the need to add some special code to the theme in order to display the generated sidebar. That's because it now can override the default sidebar and apply special conditions for any page on your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Like any other Wordpress plugin. <br />\n"
+"Drop <code>smk-sidebar-generator</code> to <code>wp-content/plugins/</code>.<br />\n"
+"More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Because you probably still need them, these functions are still here to not break your site.\n"
+"<strong>Note:</strong> The following code is for vesion 2.x In the latest version of this plugin they are not required. Do not use them anymore!!!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Display a sidebar using <code>smk_sidebar</code> function:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Display a sidebar using wp native function:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Display a sidebar using built-in shortcode:</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>smk-sidebar-generator</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the SMK Sidebar Generator plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure the plugin by going to the SMK Sidebars menu that appears in your admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added localization support(if you want to translate it in your language, create a pull requests on Github)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added shortcode with ID to each sidebar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>Complete rewrite from scratch.</strong> The plugin now allows to create an unlimited number of sidebars without the need to touch a single line of code in your theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can use conditions to apply the sidebar on any page, post ar CPT you wish. <em>Soon will be added support for taxonomies, 404 page and other(please suggest)</em>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The widgets now use the theme style and tags. That means the newly generated sidebars will look good on any theme, no need for additional styling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modular code. You can create and register your own conditions. That's mainly not required but can be handy for some developers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quick fix UI. When a new sidebar is created, it display an incorect info and it was fixed only after page refresh."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unused files, since version 3.0 is on development <code>smk_sidebar_metabox.php</code> was removed, as it was never used and is not required for the next versions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quick fix for shortcode smk_sidebar ID. Shortcode did not work because the ID was not set correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new tab \"How to use?\" and links to docs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>Added import/export functions.</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes to <code>smk_sidebar</code> shortcode. Previously to get a sidebar required only an integer number, now you can get any sidebar using the shortcode just giving the id, even if the sidebar is not generated using Sidebar Generator plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added plugin version to enqueued scripts and style."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirm sidebar remove."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Sidebars could not be added when all previous sidebars were removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed ajax name validation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "enqueue styles and scripts only on plugin page, not on all WP dashboard pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>admin_enqueue_scripts</code> make use of <code>SMK_SBG_URI</code> constant."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>smk_get_all_sidebars()</code> function is included in plugin. Anyways, you must include it in your theme <code>functions.php</code>, because if you'll deactivate the plugin it will return a fatal error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""

@@ -1,0 +1,7 @@
+ALTER TABLE `frp_match` CHANGE `team1goals` `team1goals` TEXT NOT NULL;
+ALTER TABLE `frp_match` CHANGE `team1points` `team1points` TEXT NOT NULL;
+ALTER TABLE `frp_match` CHANGE `team1overallpoints` `team1overallpoints` TEXT NOT NULL;
+
+ALTER TABLE `frp_match` CHANGE `team2goals` `team2goals` TEXT NOT NULL;
+ALTER TABLE `frp_match` CHANGE `team2points` `team2points` TEXT NOT NULL;
+ALTER TABLE `frp_match` CHANGE `team2overallpoints` `team2overallpoints` TEXT NOT NULL;

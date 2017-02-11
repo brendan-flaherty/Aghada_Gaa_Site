@@ -1,0 +1,42 @@
+#change_wrap_div{ background-repeat: repeat !important; }#footer{ background-color: #323232} #sub-footer { background-color: #323232 !important; } #sub-footer { background-repeat: repeat !important; } div.pp_overlay, .dfd-fullscreen-video-container:before  { opacity: 0.7 !important; } @media only screen and (max-width: 1100px) {#header-container {
+ position: fixed;
+}}
+@media only screen and (max-width: 799px){#header-container.small {
+ display: block;
+}}
+@media only screen and (max-width: 799px){#header-container:not(.small) {
+ position: fixed;
+}}
+@media only screen and (max-width: 480px) {#header-container:not(.small) {
+ position: fixed;
+}}
+@media only screen and (max-width: 799px){
+#header-container:not(.small):not(.logo-position-right) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-right {
+    float: left;
+}}
+@media only screen and (max-width: 799px){
+#header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-left {
+    float: right;
+}}
+@media only screen and (min-width: 800px){
+#header-container.logo-position-left:not(.small) .header-col-fluid {
+    margin-left: 55px;
+    margin-right: 0;
+}}
+
+@media only screen and (min-width: 800px) {
+#header-container.logo-position-left:not(.small) .header-col-right {
+    width: 55px;
+}}
+
+@media only screen and (min-width: 800px) {
+#header-container.logo-position-left:not(.small) .header-col-left {
+    width: 0;
+}}
+menu-fixer{
+margin-top:6%;
+}
+div#stuning-header .dfd-stuning-header-bg-container
+{
+margin-top:6%;
+}

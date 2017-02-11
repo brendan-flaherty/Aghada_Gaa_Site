@@ -1,0 +1,423 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+
+.clear {
+    clear: both;
+    float: none !important;
+}
+
+.wp-list-table {
+    margin: 15px 0px;
+}
+
+.ls-box.ls-import-box  textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.ls-box.ls-slider-list table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.ls-box.ls-slider-list thead td {
+    padding-left: 10px;
+}
+
+.ls-box.ls-slider-list tbody td {
+    height: 20px;
+}
+
+.ls-box.ls-slider-list td:first-child {
+    text-align: center;
+}
+
+.ls-box.ls-slider-list a {
+    text-decoration: none !important;
+}
+
+.ls-help-pointer .inner {
+    padding: 10px;
+    text-align: justify;
+}
+
+.ls-help-pointer .wp-pointer-arrow {
+    left: auto;
+    right: 10px;
+}
+
+/**************************************************/
+/*                  EDITOR GENERAL                */
+/**************************************************/
+
+.ls-page {
+    display: none;
+}
+
+.ls-page.active {
+    display: block;
+}
+
+.ls-icon-layers {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 11px 8px 0px 0px;
+    background: transparent url(../img/sprite.png) 0px -119px no-repeat;
+}
+
+.ls-box {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.ls-box .header, .ls-box thead {
+    height: 29px;
+    margin: 0px;
+    padding: 0px 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #dfdfdf;
+    font: normal normal bold 12px/29px Arial, serif;
+    color: #333;
+    text-shadow: 0px 1px 0px #fff;
+
+    background: #f9f9f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.ls-box .header {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.ls-box .inner {
+    padding: 10px;
+}
+
+.ls-box table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.ls-box thead td {
+    border-bottom: 1px solid #dfdfdf;
+    background: #f9f9f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.ls-box tbody td {
+    height: 30px;
+    padding: 4px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e3e3e3;
+    font: normal normal normal 13px/16px Arial, serif;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+}
+
+.ls-box a {
+    text-decoration: none;
+}
+
+.ls-settings tbody td:first-child {
+    width: 200px;
+    text-align: right;
+    font-size: 11px;
+}
+
+/**************************************************/
+/*                  SETTINGS PAGE                 */
+/**************************************************/
+
+#post-body-content {
+    float: none;
+    margin: 0px;
+}
+
+#titlediv {
+    margin-bottom: 10px;
+}
+
+.ls-checkbox {
+    display: inline-block;
+    width: 35px;
+    height: 16px;
+    margin: 5px 0px 0px 2px;
+    position: relative;
+    background: transparent url(../img/sprite.png) 0px -291px no-repeat;
+}
+
+.ls-checkbox span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: -2px;
+    left: 17px;
+    background: transparent url(../img/sprite.png) 0px -343px no-repeat;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.ls-checkbox.on {
+    background: transparent url(../img/sprite.png) 0px -317px no-repeat;
+}
+
+.ls-checkbox.on span {
+    left: -2px;
+}
+
+.ls-box h4 {
+    margin: 0px;
+}
+
+.ls-box td.desc {
+    margin: 0px;
+    color: #9d9daa;
+    font-size: 11px;
+}
+
+.ls-box td div.reset-parent {
+    position: relative;
+}
+
+.ls-box .input, .ls-box select {
+    width: 200px;
+}
+
+.ls-box .ls-reset {
+    position: absolute;
+    top: 7px;
+    left: 135px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #666;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px #fff;
+}
+
+.ls-slide-options .ls-reset {
+    left: 85px;
+}
+
+.ls-slide-options .checkbox, .ls-sublayers .checkbox {
+    width: auto;
+    height: auto;
+}
+
+
+
+/**************************************************/
+/*                    MAIN MENU                   */
+/**************************************************/
+
+#ls-main-nav-bar {
+    height: 38px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin: 10px 0px;
+
+    background: #f9f9f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #ececec 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f9f9f9 0%,#ececec 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+
+#ls-main-nav-bar a {
+    display: block;
+    height: 38px;
+    margin: 0px;
+    padding: 0px 10px 0px 34px;
+    float: left;
+
+    font: normal normal normal 13px/38px Arial, serif;
+    color: #2175a7;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+#ls-main-nav-bar a:last-child {
+    display: none;
+}
+
+#ls-main-nav-bar a.support {
+    float: right;
+}
+
+
+#ls-main-nav-bar a.active {
+    font: normal normal bold 12px/38px Arial, serif;
+    color: #464646;
+}
+
+#ls-main-nav-bar a.settings {
+    border-right: 1px solid #dfdfdf;
+    background: transparent url(../img/sprite.png) 10px 0px no-repeat;
+}
+
+#ls-main-nav-bar a.layers {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #dfdfdf;
+    background: transparent url(../img/sprite.png) 10px -27px no-repeat;
+}
+
+#ls-main-nav-bar a.callbacks {
+    border-left: 1px solid #fff;
+    background: transparent url(../img/sprite.png) 10px -54px no-repeat;
+}
+
+#ls-main-nav-bar a.support {
+    background: transparent url(../img/sprite.png) 10px -81px no-repeat;
+}
+
+/**************************************************/
+/*                     SUPPORT                   */
+/**************************************************/
+
+.ls-support thead td {
+    padding: 0px 10px;
+}
+
+.ls-support tbody td {
+    padding: 15px;
+    text-align: justify;
+    color: #666;
+}
+
+.ls-publish button {
+    float: left;
+}
+
+.ls-saving-warning {
+    float: left;
+    margin: 5px 0px 0px 10px;
+}
+
+.ls-preview-button {
+    display: block !important;
+    margin: 0px auto 5px auto !important;
+}
+
+.wp-core-ui button.saving, .wp-core-ui button.saving:disabled, .wp-core-ui button.saving[disabled] {
+    text-shadow: none !important;
+    cursor: default !important;
+    color: white !important;
+    background: #ff3232 !important;
+    background: -moz-linear-gradient(top, #ff3232 0%, #b50000 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(100%,#b50000)) !important;
+    background: -webkit-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+    background: -o-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+    background: -ms-linear-gradient(top, #ff3232 0%,#b50000 100%) !important;
+    background: linear-gradient(to bottom, #ff3232 0%,#b50000 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#b50000',GradientType=0 ) !important;
+    border: 1px solid #ff3232 !important;
+}
+
+.wp-core-ui button.saved, .wp-core-ui button.saved:disabled, .wp-core-ui button.saved[disabled], button.playing {
+    text-shadow: none !important;
+    color: white !important;
+    background: #76c928 !important;
+    background: -moz-linear-gradient(top, #76c928 0%, #3e7f19 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#76c928), color-stop(100%,#3e7f19)) !important;
+    background: -webkit-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+    background: -o-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+    background: -ms-linear-gradient(top, #76c928 0%,#3e7f19 100%) !important;
+    background: linear-gradient(to bottom, #76c928 0%,#3e7f19 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76c928', endColorstr='#3e7f19',GradientType=0 ) !important;
+    border: 1px solid #76c928 !important;
+}
+
+.yourlogo {
+    z-index: 99;
+    position: absolute;
+}
+
+
+/**************************************************/
+/*               S K I N  E D I T O R             */
+/**************************************************/
+
+.ls-skin-editor-box {
+    margin-top: 10px;
+}
+
+.ls-skin-editor-box h3 {
+    height: 35px !important;
+    line-height: 35px !important;
+}
+
+.ls-skin-editor-box h3 p {
+    margin: 0px;
+    margin-right: -5px;
+    font-weight: normal;
+    float: right;
+}
+
+.ls-skin-editor-box textarea {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+}
+
+.ls-skin-editor-box .inner p {
+    margin: 5px 0px;
+}
+
+#hor-zebra
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+#hor-zebra th
+{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+    color: #039;
+}
+#hor-zebra td
+{
+    padding: 8px;
+    color: #669;
+}
+#hor-zebra .odd
+{
+    background: #e8edff;
+}
